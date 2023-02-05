@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+compile using this:
+cc -fPIC -shared -o libcisin.so string_comparison.c
+
+to load in python.
+*/
+
 int compare_strings(char *string1, char *string2) 
 {
     int result;
